@@ -1,0 +1,10 @@
+body {
+  font-family: Play, sans-serif;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 1px #fff dashed;
+}

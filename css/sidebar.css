@@ -1,0 +1,21 @@
+.sidebar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;  
+}
+.sidebar-news-title {
+  font-size: 24px;
+  font-family: Lobster;
+}
+.sidebar-news {
+  
+}
+.sidebar-news-item {
+  padding-top: 10px;
+}
+.sidebar-news-item-title {
+  
+}
+.sidebar-news-time {
+  font-family: Audiowide;
+}
