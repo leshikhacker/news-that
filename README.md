@@ -1,0 +1,2 @@
+# news-that
+Ideaton project
