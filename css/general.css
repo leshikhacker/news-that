@@ -2,9 +2,9 @@ body {
   font-family: Play, sans-serif;
 }
 a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 a:hover {
-  border-bottom: 1px #fff dashed;
+  border-bottom: 1px #000 dashed;
 }
