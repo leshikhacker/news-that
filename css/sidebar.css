@@ -13,9 +13,12 @@
 .sidebar-news-item {
   padding-top: 10px;
 }
+.sidebar-news-item:last-of-type {
+  margin-bottom: 20px;
+}
 .sidebar-news-item-title {
   
 }
 .sidebar-news-time {
-  font-family: Audiowide;
+  font-family: Gloria Hallelujah;
 }

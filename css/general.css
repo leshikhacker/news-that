@@ -4,7 +4,8 @@ body {
 a {
   color: #000;
   text-decoration: none;
+  border-bottom: 1px #000 dashed;
 }
 a:hover {
-  border-bottom: 1px #000 dashed;
+  border-bottom: none !important; /* for any links */
 }

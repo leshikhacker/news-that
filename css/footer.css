@@ -14,7 +14,5 @@
 }
 .footer-copyright > a {
   color: #fff;
-}
-.footer-copyright > a:hover {
   border-bottom: 1px #fff dashed;;
 }

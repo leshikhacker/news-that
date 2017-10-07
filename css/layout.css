@@ -13,7 +13,15 @@
     "ft   ft   ft   ft   ft   ft   ft ft ft";
   max-width: 1280px;
   min-height: 100vh;
-  max-width: 1280px;
+}
+@media screen and (max-width: 640px) {
+  .wrapper {
+    grid-template-areas: 
+      "hd   hd   hd   hd   hd   hd   hd hd hd"
+      "main main main main main main main main main"
+      "sd sd sd sd sd sd sd sd sd"
+      "ft   ft   ft   ft   ft   ft   ft ft ft";
+  }
 }
 .header {
   grid-area: hd;

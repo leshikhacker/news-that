@@ -34,19 +34,36 @@ background-size: 116.25px 96px;
   color: #fff;
   font-size: 24px;
   background-color: rgba(0,0,0,0.2);
+  text-decoration: underline;
 }
 .weather {
-  
+  padding: 4px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  position: relative;
+  border-radius: 100%;
+  margin-top: -25px;
 }
+
 .holiday {
-  
+  visibility: hidden;
 }
 .auth {
-  
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(0,0,0,0.5);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .auth a {
   color: #fff;
+  border-bottom: 1px dashed #fff;
 }
+/*.auth span {
+  color: #fff;
+}*/
 .nav {
   margin-top: 20px;
 }
@@ -60,8 +77,6 @@ background-size: 116.25px 96px;
 .nav li a {
   color: #fff;
   padding: 10px;
-}
-.nav li a:hover {
   border-bottom: none;
 }
 
@@ -69,6 +84,7 @@ background-size: 116.25px 96px;
 .nav li {
   width: 120px;
   margin-top: -10px;
+  cursor: pointer;
 }
 .nav li:nth-child(2n) {
   margin-top: 30px;
@@ -87,17 +103,32 @@ background-size: 116.25px 96px;
 .nav li:nth-child(1):after {
   background: rgba(64, 44, 55, 0.8);
 }
+.nav li:nth-child(1):hover:after {
+  background: rgba(64, 44, 55, 0.9);
+}
 .nav li:nth-child(2):after {
   background: rgba(255, 192, 78, 0.67);
+}
+.nav li:nth-child(2):hover:after {
+  background: rgba(255, 192, 78, 0.8);
 }
 .nav li:nth-child(3):after {
   background: rgba(21, 146, 145, 0.8);
 }
+.nav li:nth-child(3):hover:after {
+  background: rgba(21, 146, 145, 0.9);
+}
 .nav li:nth-child(4):after {
   background: rgba(50, 114, 150, 0.8);
 }
+.nav li:nth-child(4):hover:after {
+  background: rgba(50, 114, 150, 0.9);
+}
 .nav li:nth-child(5):after {
   background: rgba(131, 139, 142, 0.8);
+}
+.nav li:nth-child(5):hover:after {
+  background: rgba(131, 139, 142, 0.9);
 }
 
 .nav li a {
