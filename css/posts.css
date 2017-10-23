@@ -1,2 +1,65 @@
-.gav{
-++}
+.post-wrapper{
+  background-color: #e7eaff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 600px;
+  height: 150px;
+  float: left;
+}
+.post{
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+.post:first-child {
+  margin-top: 10px;
+}
+.post:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.post-controls{
+  font-size: 130%;
+  float: left;
+  padding-top: 105px;
+  padding-left: 20px;
+}
+.sym{
+  margin-left: 5px;
+  font-size: 90%;
+}
+.post-wrapper h1{
+  padding: 25px 15px  10px 15px;
+  font-size: 120%;
+}
+.post-block{
+  float: left;
+  margin-right: 10px;
+}
+.post-author{
+  margin-left: 15px;
+}
+.post a {
+  color: #45b1a0;
+  text-decoration: none;
+}
+.post a:hover{
+  text-decoration: underline;
+}
+.post-comments-count {
+  float: none;
+  clear: both;
+  display: inline-block;  
+}
+.post-star {
+  display: inline-block;
+}
+
+.fa-arrow-up:before {
+  color: #334f5d;
+}
+.fa-arrow-down:before {
+  color: #db6442;
+}

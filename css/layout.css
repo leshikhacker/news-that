@@ -2,6 +2,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+body {
+  height: 100%;
+  position: relative;
+}
 .wrapper {
   color: #000;
   display: grid;
